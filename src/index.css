@@ -6,8 +6,32 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@font-face {
+  font-family: "Leiko-Regular.otf";
+   src: url("/src/fonts/Leiko-Regular.otf");
+  }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+/* Hero Component */
+
+.Hero-Wrapper-Div {
+  display: flex;
+  -ms-flex-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  height: 40vh;
+  background-color: black;
+  padding: 100px;
+}
+
+.Hero-h2 {
+  font-size: 45px;
+  color: white;
+  font-family: Leiko-Regular;
 }
